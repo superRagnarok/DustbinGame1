@@ -33,7 +33,7 @@ function draw() {
   
   //drawSprites();
   paper.velocityY=paper.velocityY+0.8;
-  text("Press Ctrl+R to play again",50,50);
+  text("Press up arrow key to throw waste paper and Press Ctrl+R to play again",50,50);
   ground.display();
   paper.display();
   dust1.display();
